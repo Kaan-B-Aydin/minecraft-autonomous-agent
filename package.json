@@ -1,0 +1,21 @@
+{
+  "name": "Minecraft-Autonomous-Bot",
+  "version": "1.0.0",
+  "description": "An autonomous Minecraft bot built with JavaScript and Mineflayer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft", 
+    "bot", 
+    "mineflayer"
+    ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "mineflayer": "^4.37.1",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
