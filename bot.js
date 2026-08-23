@@ -71,6 +71,13 @@ async function main() {
   }
 }
 
+function getLogItems() {
+  const items = bot.inventory.items();
+  return items
+    .filter(item => item.name.includes('log'))
+    .reduce((total, item) => total + item.count, 0);
+}
+
 bot.once('spawn', async () => {
   console.log('Bot spawned!');
 
